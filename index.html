@@ -1,72 +1,35 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سایت من</title>
+    <title>هنر و علم تی پیرینگ</title>
     <style>
-        body {
+        /* تنظیمات برای تمام صفحه کردن */
+        body, html {
             margin: 0;
             padding: 0;
-            font-family: 'Tahoma', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #333;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* حذف اسکرول اضافه مرورگر */
+            background-color: #000; /* رنگ پس‌زمینه مشکی برای لودینگ */
         }
-        .card {
-            background: white;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-            text-align: center;
-            max-width: 350px;
-            width: 90%;
-        }
-        .avatar {
-            width: 100px;
-            height: 100px;
-            background-color: #ddd;
-            border-radius: 50%;
-            margin: 0 auto 20px;
-            background-image: url('https://api.dicebear.com/7.x/avataaars/svg?seed=Felix'); 
-            background-size: cover;
-        }
-        h1 {
-            margin: 10px 0;
-            font-size: 24px;
-        }
-        p {
-            color: #666;
-            line-height: 1.6;
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 25px;
-            background: #764ba2;
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background: #5a387e;
-            transform: translateY(-2px);
+        
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+            display: block; /* حذف فاصله مخفی پایین iframe */
         }
     </style>
 </head>
 <body>
 
-    <div class="card">
-        <div class="avatar"></div>
-        <h1>سلام، من [نام شما] هستم</h1>
-        <p>این اولین وب‌سایت من است که روی گیت‌هاب میزبانی می‌شود. من به تکنولوژی و وب علاقه دارم.</p>
-        <a href="#" class="btn">تماس با من</a>
-    </div>
+    <iframe 
+        src="https://gamma.app/embed/pypfxx72pkuqocn" 
+        allow="fullscreen" 
+        title="هنر و علم تی پیرینگ">
+    </iframe>
 
 </body>
-
 </html>
